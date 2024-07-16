@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "open-iconic";
+    src: url("font/open-iconic.ttf");
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #3f362b;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+.text {
+    font-family: "open-iconic";
+}
+
+/* sign in */
+
+/* sign up */
+.signUp {
+    background-color: #3f362b;
+}
+
+.title02 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Quicksand";
+    color: wheat;
+    text-align: center;
+}
+
+
+/* sign up */
+
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.ASBody {
+    background-image: url("resources/background/car-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.poster-img-1 {
+    height: 500px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.poster-caption {
+    margin-bottom: 150px;
+}
+
+.poster-caption-1 {
+    margin-bottom: 70px;
+    margin-right: 280px;
+}
+
+.poster-title {
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.poster-txt {
+    font-size: 20px;
+    color: white;
+}
+
+.about-image {
+    background-image: url("resources/background/car-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-image1 {
+    background-image: url("resources/logo/lotus.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.CBody {
+    background-image: url("resources/background/car-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fBack {
+    background-image: url("resources/background/car-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1500px;
+}
+
+.signIn_body {
+    background-image: url("resources/background/car-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.upimg {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin: 5px; */
+}
+
+.vehicle {
+    font-family: "open-iconic";
+}
+
+.other-img {
+    width: 35%;
+    border-left: 1px solid #e1e7ec !important;
+    display: table-cell;
+    width: 65%;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.card-img-tiles .other-img>img {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.card-img-tiles>.inner {
+    display: table;
+    width: 100%;
+}
+
+.singleView {
+
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(17, 2, 2);
+}
+
+.cartView {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+
+}

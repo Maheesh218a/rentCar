@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "open-iconic";
+    src: url("font/open-iconic.ttf");
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #3f362b;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+.container-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.author-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.adminBody{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.done-message{
+    color: green;
+    font-weight: bold;
+}
+
+.error-message{
+color: whitesmoke;
+font-weight: bold;
+}
+
+
+.modalBody1{
+    background-image: url('resources/background/regsucess.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+}
+
+.modalBody2{
+    background-image: url('resources/background/2869275.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+}
+
+.homeCode{
+
+    padding: 20px;
+    border-radius: 5px;
+    /*background-color: white;*/
+    box-shadow: 0px 0px 10px 0px rgb(13, 13, 1.3);
+}
